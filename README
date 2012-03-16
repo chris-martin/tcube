@@ -1,0 +1,18 @@
+python/
+
+    scripts that perform the scraping work
+
+api.xml, php/
+
+    defines the web service API and integrates the python
+    with the GTMob framework and database server
+
+create-tables.sql
+
+    schema for the MySql database
+
+keyring.sh
+
+    a script to pull a password outof gnome-keyring for
+    conenvience in testing
+

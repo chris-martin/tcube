@@ -1,0 +1,13 @@
+It takes some effort to get this python code to run on GTmob.
+
+The python version installed on the machine is absurdly outdated, so we compiled
+Python 2.7.2. I couldn't figure out how to compile it with SSL support against
+the existing SSL installation, so we're also using our own compile of OpenSSL 0.9.8g.
+
+The python library support on the machine is also lacking. We are using local
+installations of the following python packages:
+
+  argparse-1.1.2
+  BeautifulSoup-3.2.0
+  mechanize-0.2.5
+
